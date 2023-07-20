@@ -460,7 +460,7 @@ class _Scholarly:
         elif object['source'] == PublicationSource.PUBLICATION_SEARCH_SNIPPET:
             return self.__nav.search_publications(object['url_related_articles'])
 
-    def pprint(self, object: Author or Publication)->None:
+    def pformat(self, object: Author or Publication)->str:
         """Pretty print an Author or Publication container object
 
         :param object: Publication or Author container object
@@ -493,7 +493,7 @@ class _Scholarly:
                     del publication['container_type']
 
         del to_print['container_type']
-        print(pprint.pformat(to_print).encode("utf-8"))
+        return pprint.pformat(to_print)
 
     def search_org(self, name: str, fromauthor: bool = False) -> list:
         """
