@@ -1,0 +1,17 @@
+Carbamoyl phosphate synthase II (CPSII) is an enzyme that involves in the biosynthesis of pyrimidine nucleotides via the production of carbamoyl phosphate. These are the building blocks of DNA and RNA which are necessary for cell division and proliferation. Therefore, the insertion of CPSII gene would increase the possibility of patients developing tumour such as hepatoma due to the increasing CPSII activity.[1] Furthermore, CPSII is not involved in the urea cycle, meaning its insertion instead of CPSI gene would not influence the mal-functionality of the urea cycle.
+Although the insertion of CPSII wouldn’t cause severe consequences in short periods of time, the issue with faulty CPSI is left unaddressed. The urea cycle function primarily to remove ammonia (NH3), which is toxic to human body. Ammonia can build up as result of breaking down protein. In the first step of the urea cycle, CPSI is the first and rate limiting enzyme for synthesis of carbamoyl phosphate from NH4+ and HCO3- in mitochondria with expense of 2 ATPs (Figure 1).[2] The faulty CPSI gene indicates the disruption of the rest of the urea cycle, leading to the accumulation of ammonia (type 1 hyperammonemia). Human brain is especially sensitive toward hyperammonemia, as NH3 has been identified as one of the major cause toward brain damage. The gaseous NH3 in blood could diffuse through the blood-brain barrier, metabolised into glutamine with glutamate via glutamine synthetase (Figure 2).[3] Neurotransmitter production such as glutamate precursor of GABA can be reduced due to the decrease concentration of glutamate. Furthermore, Many studies have demonstrated that accumulation of ammonia in brain leads to neurological and cerebral dysfunctions, which put the patient in risk of potential seizure, coma or even death (Cooper et al, 1979; Lockwood et al, 1980, 1984; Phelps et al, 1977; Keiding et al, 2006). Arginine treatment could increase the l-citrulline and arginosuccinate production as it bypass the CPSI regulatory reaction, therefore complete the urea cycle, eliminate ammonia level in patient’s body.
+ 
+Figure 1. Carbamoyl phosphate synthesis I on the production of carbamoyl phosphate in urea cycle.
+
+
+
+
+
+Figure 2. How glutamine is synthesised from ammonia.
+
+In conclusion, the insertion of the CPSII gene instead of CPSI in a gene therapy treatment to restore urea cycle functionality would not achieve the desired outcome and could potentially inflict harmful consequences such as tumour development due to insertion of CPSII gene. However, the remained facultative CPSI genes could bring severe brain damage for the patient. It would decrease the survival rate if patient does not receive arginine treatment on hyperammonemia.
+											
+Reference
+1. Reardon, M. A., & Weber, G. (1985). Increased carbamoyl-phosphate synthetase II concentration in rat hepatomas: immunological evidence. Cancer research, 45(9), 4412–4415.
+2. Aryal, S. (2022, September 5). Urea cycle- enzymes and steps. Microbe Notes. Retrieved May 4, 2023, from https://microbenotes.com/urea-cycle-enzymes-and-steps/ 
+3. Goldbecker, A., Buchert, R., Berding, G., Bokemeyer, M., Lichtinghagen, R., Wilke, F., Ahl, B., & Weissenborn, K. (2010). Blood-brain barrier permeability for ammonia in patients with different grades of liver fibrosis is not different from healthy controls. Journal of cerebral blood flow and metabolism : official journal of the International Society of Cerebral Blood Flow and Metabolism, 30(7), 1384–1393. https://doi.org/10.1038/jcbfm.2010.22

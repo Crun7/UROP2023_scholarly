@@ -104,17 +104,41 @@ def extract_journal_title(citation):
     return "Title not found"
 
 
+# Assume references and citation all starts "Reference" and "Bibliography"
+def extract_citations():
+    file = input("enter the file name: ")
+    with open(file, 'r') as f:
+        lines = f.readlines()
 
-# Test the function with an example citation.
-citation = "Andreff, Wladimir, and Paul D. Staudohar. “The Evolving European Model of Professional Sports Finance.” Journal of Sports Economics, vol. 1, no. 3, Sept. 2000, pp. 257–76, https://doi.org/10.1177/152700250000100304."
-print(extract_journal_title(citation))
+    citations = []
+    collect_citations = False
+
+    for line in lines:
+        if 'Reference' in line or 'Bibliography' in line:
+            collect_citations = True
+            continue
+        if collect_citations:
+            if line.strip():  # not an empty line
+                citation = re.sub('^\d+\.\s*', '', line.strip())
+                citations.append(citation)
+    return citations
+
+# filename = 'test_file.txt'
+# citations = extract_citations(filename)
+
+# for citation in citations:
+#     print(citation)
+
+# # Test the function with an example citation.
+# citation = "Andreff, Wladimir, and Paul D. Staudohar. “The Evolving European Model of Professional Sports Finance.” Journal of Sports Economics, vol. 1, no. 3, Sept. 2000, pp. 257–76, https://doi.org/10.1177/152700250000100304."
+# print(extract_journal_title(citation))
 
 
-# Test the function with an example citation.
-citation = "Smith, Thomas, and Barbara Michelle Williams. The Citation Manual for Students: A Quick Guide. Wiley, 2020."
-print(extract_book_title(citation))
+# # Test the function with an example citation.
+# citation = "Smith, Thomas, and Barbara Michelle Williams. The Citation Manual for Students: A Quick Guide. Wiley, 2020."
+# print(extract_book_title(citation))
 
-print(check_paper_exists(citation))
+# print(check_paper_exists(citation))
 
 
 
