@@ -13,5 +13,4 @@ In conclusion, the insertion of the CPSII gene instead of CPSI in a gene therapy
 											
 Reference
 1. Reardon, M. A., & Weber, G. (1985). Increased carbamoyl-phosphate synthetase II concentration in rat hepatomas: immunological evidence. Cancer research, 45(9), 4412–4415.
-2. Aryal, S. (2022, September 5). Urea cycle- enzymes and steps. Microbe Notes. Retrieved May 4, 2023, from https://microbenotes.com/urea-cycle-enzymes-and-steps/ 
-3. Goldbecker, A., Buchert, R., Berding, G., Bokemeyer, M., Lichtinghagen, R., Wilke, F., Ahl, B., & Weissenborn, K. (2010). Blood-brain barrier permeability for ammonia in patients with different grades of liver fibrosis is not different from healthy controls. Journal of cerebral blood flow and metabolism : official journal of the International Society of Cerebral Blood Flow and Metabolism, 30(7), 1384–1393. https://doi.org/10.1038/jcbfm.2010.22
+2. Goldbecker, A., Buchert, R., Berding, G., Bokemeyer, M., Lichtinghagen, R., Wilke, F., Ahl, B., & Weissenborn, K. (2010). Blood-brain barrier permeability for ammonia in patients with different grades of liver fibrosis is not different from healthy controls. Journal of cerebral blood flow and metabolism : official journal of the International Society of Cerebral Blood Flow and Metabolism, 30(7), 1384–1393. https://doi.org/10.1038/jcbfm.2010.22

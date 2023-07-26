@@ -1,5 +1,19 @@
 from scholarly import scholarly
 import re
+from scholarly import ProxyGenerator
+
+def start_scan():
+#   # Set up a ProxyGenerator object to use free proxies
+#   pg = ProxyGenerator()
+#   pg.FreeProxies()
+#   scholarly.use_proxy(pg)
+
+  citations =  extract_citations()
+  with open('output.txt', 'w+') as f:
+    for cit in citations:
+      f.write(check_paper_exists(cit)+'\n')
+
+
 # From Scriber
 # Harvard style: 
 #   Books: Author surname, initial. (Year) Book title. City: Publisher.
@@ -16,6 +30,13 @@ import re
 def check_paper_exists(citation) -> str:
     # Search for publications with the given title
     title = extract_title(citation)
+    print(f"Checking citation: {title}\n")
+    
+    # if title is too long, often scholarly can not fetch the result, so trim it down to 5 words.
+    title = title.split()
+    title = ' '.join(title[:5])
+    
+    print(f"Checking trimed citation: {title}\n\n")
     search_query = scholarly.search_pubs(title)
 
     try:
